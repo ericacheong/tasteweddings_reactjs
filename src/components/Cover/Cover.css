@@ -1,0 +1,17 @@
+.Cover {
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.7)), url('../../assets/images/hero.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh
+}
+
+
+.HeroTextBox {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 4%;
+}

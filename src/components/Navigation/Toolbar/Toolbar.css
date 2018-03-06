@@ -1,0 +1,19 @@
+.Toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.DesktopOnly ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    padding-right: 1rem;
+}
+
+@media screen and (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+}
