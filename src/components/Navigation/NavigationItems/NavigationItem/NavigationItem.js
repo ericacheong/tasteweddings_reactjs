@@ -1,18 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 import './NavigationItem.css';
 
 const navigationItem = (props) => {
     return (
-        <li className="NavItem"><a href={props.link}>{props.children}</a></li>
-        /*
-        <li><NavLink
-                to={props.link}
-                exact={props.exact}
-                className="active">
-                {props.children}</NavLink></li>
-        */
+        <li><Link className="NavItem" activeClass="active" to={props.link} spy={true} duration={500} smooth={true}>{props.children}</Link></li>
+
     )
 }
 

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 
+import { Element, Events, Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+
 import './App.css';
 
 import Layout from './hoc/Layout/Layout';
@@ -17,11 +19,21 @@ class App extends Component {
     return (
       <div className="App">
         <Layout>
-          <Service />
-          <Photo />
-          <Book />
-          <About />
-          <Contact />
+            <Element name="service" className="element">
+              <Service />
+            </Element>
+            <Element name="photo" className="element"> 
+              <Photo />
+            </Element>
+            <Element name="book" className="element">
+              <Book />
+            </Element>
+            <Element name="about" className="element">
+              <About />
+            </Element>
+            <Element name="contact" className="element">
+              <Contact />
+            </Element>
         </Layout>
       </div>
     );
