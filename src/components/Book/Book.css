@@ -1,0 +1,29 @@
+.Book {
+    background-color: #d71419;
+    color: #fffcdc;
+}
+
+.Book h2 {
+    color: #fffcdc;
+}
+
+.Book .BookContainer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.Book img {
+    width: 250px;
+    height: 346px;
+}
+
+
+@media screen and (min-width: 650px) {
+    .Book .BookContainer {
+        flex-flow: row;
+    }
+    .Book img {
+        margin-right: 10px;
+    }
+}

@@ -4,9 +4,23 @@
   box-sizing: border-box;
 }
 
+/* assigned to container that contains float elements */
+.clearfix {zoom: 1}
+.clearfix {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.clear {
+  clear: both;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: #555;
 }
 

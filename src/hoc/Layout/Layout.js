@@ -4,11 +4,20 @@ import Aux from '../Aux/Aux';
 import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 import Cover from '../../components/Cover/Cover';
+import Footer from '../../components/Footer/Footer';
 
 class Layout extends Component {
     state = {
         showSideDrawer: false,
         stickyToolbar: false
+    }
+
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
+    }
+
+    componentDidMount() {
+        window.removeEventListener('scroll', this.handleScroll);
     }
 
     sideDrawerClosedHandler = () => {
@@ -17,6 +26,11 @@ class Layout extends Component {
 
     drawerToggleClickedHandler = () => {
         this.setState({showSideDrawer: true});
+    }
+
+    handleScroll = (event) => {
+        let scrollTop = event.srcElement.body.scrollTop;
+        console.log(scrollTop);
     }
 
     render() {
@@ -29,6 +43,7 @@ class Layout extends Component {
                 <main className="Content">
                     {this.props.children}
                 </main>
+                <Footer />
             </Aux>
         );
     }
