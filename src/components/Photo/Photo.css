@@ -1,4 +1,10 @@
 .Photo {
-    height: 400px;
-    background-color: tomato;
+    background-color:#ccc;
+    width: 100%;
+    padding: 0;
+}
+
+.Photo img {
+    width: 100%;
+    height: auto;
 }

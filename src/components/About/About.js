@@ -1,21 +1,26 @@
 import React from 'react';
 
+import './About.css';
+import profilePic from '../../assets/images/profile.jpg';
+
 const about = (props) => {
     return (
-        <section id="about">
+        <section id="about" className="About">
             <h2>Jessica跟你談婚論嫁</h2>
+            <img src={profilePic} alt="Profile" />
         <p>江婉君 婚禮統籌師
             Jessica Kong
             Chief Wedding Planner
         </p>
         <p>Taste Weddings 談婚論嫁婚禮策劃公司創辦人
             註冊導師及課程導師
+        </p>
             <ul>
                 <li>僱員再培訓局</li>
                 <li>香港遊樂場協會</li>
                 <li>CMM 蒙妮坦美髮美容學院</li>
             </ul>
-        </p>
+
         <p>
             婚禮統籌江婉君(Jessica)由傳統中式到本地西式婚禮當中各式各樣不同的細節，
             多年的實戰經驗令我更加明白身為Wedding Planner 除了要關顧新人對婚禮的要求外。

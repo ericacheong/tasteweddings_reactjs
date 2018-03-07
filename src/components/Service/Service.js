@@ -6,7 +6,7 @@ const service = (props) => {
     return (
         <section className="Service" id="service">
             <h2>品味婚禮策劃</h2>
-            <p>服務範圍</p>
+            <p>Taste Weddings的婚禮策劃師具備十多年經驗，提供一站式婚禮統籌及策劃服務，為你設計最貼心合適的婚宴方案。我們提供以下服務：</p>
             <ul>
                 <li>Wedding Planner 婚禮統籌</li>
                 <li>Chinese Wedding Etiquette 新潮大妗</li>

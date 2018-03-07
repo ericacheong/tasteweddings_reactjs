@@ -1,8 +1,14 @@
 .NavItem a:link,
 .NavItem a:visited {
-    padding-right: 30px;
+    padding-right: 15px;
     padding-bottom: 5px;
     color: #eee;
     font-size: 1rem;
 }
 
+@media screen and (min-width: 650px) {
+    .NavItem a:link,
+    .NavItem a:visited {
+        padding-right: 30px;
+    }
+}
