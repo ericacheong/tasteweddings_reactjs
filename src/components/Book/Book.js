@@ -8,7 +8,7 @@ const book = (props) => (
         <h2>《搞婚禮・點算好？》</h2>
         <div className="BookContainer">
             <img alt="Book Cover" src={bookCover} />
-            <div>
+            <div className="BookInfo">
                 <p>Taste Weddings 婚禮統籌師 Jessica Kong 陪你談婚論嫁</p>
                 <p>
                 Jessica在書中有條理地向你講解每個婚禮細節，內容涵蓋中式傳統儀式、
@@ -19,6 +19,7 @@ const book = (props) => (
                 </p>
                 <a className="btn" href="http://www.etpress.com.hk/etpress/bookdetail.do?id=9789626788677">選購</a>
             </div>
+            <div className="clear"></div>
         </div>
         
     </section>

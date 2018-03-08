@@ -13,37 +13,28 @@ const contact = (props) => {
                     <form>
                         <input type="text" placeholder="姓名" required/><br />
                         <input type="email" placeholder="電郵" required/><br />
-                        <textarea placeholder="查詢" /><br />
+                        <textarea row="5" placeholder="查詢" /><br />
                         <button type="submit">送出</button>
                     </form>
                 </div>
                 <div className="ContactInfo">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>地址：</td>
-                                <td><address>Unit A 1/F A Kun Lock Building,<br /> 178 Nathan Road Hong Kong</address></td>
-                            </tr>
-                            <tr>
-                                <td>電話：</td>
-                                <td><a href="tel:9338-8255">9338-8255</a></td>
-                            </tr>
-                            <tr>
-                                <td>電郵：</td>
-                                <td>jessica@tasteweddings.com.hk</td>
-                            </tr>
-                            <tr>
-                                <td colSpan="2">
+                                <p><strong>地址：</strong><br />
+                                Unit A 1/F A Kun Lock Building,<br /> 178 Nathan Road Hong Kong</p>
+                            
+                                <p>電話：<br />
+                                <a href="tel:9338-8255">9338-8255</a></p>
+                        
+                                <p>電郵：<br />
+                                <a mailto="jessica@tasteweddings.com.hk">jessica@tasteweddings.com.hk</a></p>
+
+                                <p>
                                     <a href="https://www.facebook.com/TasteWeddings/" className="Ionicon">
                                         <Ionicon icon="logo-facebook" fontSize="30px" color="#94710F"/>
                                     </a>
                                     <a href="https://www.instagram.com/jessicak.weddingplanner/" className="Ionicon">
                                         <Ionicon icon="logo-instagram" fontSize="30px" color="#94710F"/>
                                     </a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                                </p>
                     
                 </div>
                <div className="clear"></div>

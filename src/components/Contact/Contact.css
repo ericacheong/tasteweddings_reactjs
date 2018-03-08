@@ -2,18 +2,48 @@
     border: 0;
 }
 
+.Contact {
+    background-color: #eee;
+}
+/*
 .ContactForm {
-    float: left;
-    min-width: 400px;
-    margin: 3rem auto;
+    margin: 10% 10%;
+    width: 80%;
 }
 
 .ContactInfo {
-    margin: 4rem 0 4rem 3rem;
-    text-align: left;
-    float: left;
+    margin: 4rem 0 4rem 0;
+    font-size: 85%;
+}
+*/
+
+.ContactForm {
+    margin-bottom: 2rem;
 }
 
+.ContactForm input,
+.ContactForm textarea {
+    background-color: #eee;
+}
+
+.ContactInfo p {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 700px) {
+    .ContactForm {
+        float: left;
+        width: 45%;
+        margin-right: 5%;
+    }
+    .ContactInfo {
+        float: right;
+    }
+    .ContactInfo p{
+        text-align: left;
+    }
+}
 
 
 
