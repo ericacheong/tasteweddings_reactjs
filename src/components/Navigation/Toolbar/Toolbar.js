@@ -1,5 +1,4 @@
 import React from 'react';
-import Ionicon from 'react-ionicons';
 
 import NavigationItems from '../NavigationItems/NavigationItems';
 import Logo from '../../Logo/Logo';

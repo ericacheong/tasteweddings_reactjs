@@ -6,7 +6,7 @@ import './Photo.css';
 const photo = (props) => {
     return (
         <section className="Photo" id="photo">
-            <img src={photoGrid} alt="Image gallery" />
+            <img src={photoGrid} alt="Gallery" />
         </section>
     );
 }

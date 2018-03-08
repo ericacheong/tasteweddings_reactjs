@@ -1,0 +1,19 @@
+.Ionicon:hover {
+    border: 0;
+}
+
+.ContactForm {
+    float: left;
+    min-width: 400px;
+    margin: 3rem auto;
+}
+
+.ContactInfo {
+    margin: 4rem 0 4rem 3rem;
+    text-align: left;
+    float: left;
+}
+
+
+
+
