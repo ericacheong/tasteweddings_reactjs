@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
-import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
+import Toolbar from '../../containers/Toolbar/Toolbar';
 import './Cover.css';
 
 const cover = (props) => {
     return (
         <header className="Cover">
-            <Toolbar click={props.drawerToggleClicked} />
+            <Toolbar click={props.drawerToggleClicked} linkScroll={props.linkClicked} />
             <div className="HeroTextBox">
                 <h1>Bring Taste to<br />Your Wedding</h1>
                 <Link className="btn" 

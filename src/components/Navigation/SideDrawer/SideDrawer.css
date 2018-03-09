@@ -5,8 +5,8 @@
     height: 100%;
     right: 0;
     top: 0;
-    z-index: 200;
-    background-color: #94710F;
+    z-index: 2001;
+    background-color: #fff;
     padding: 32px 16px;
     box-sizing: border-box;
     transition: transform 0.3s ease-out;

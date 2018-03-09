@@ -13,3 +13,22 @@
         padding-right: 30px;
     }
 }
+
+a.NavItem,
+a.NavItem:visited {
+    font-size: 1.5rem;
+    color: #94710F;
+    transition: color 0.2s;
+    cursor: pointer;
+    border: 0;
+}
+
+a.NavItem:hover,
+a.NavItem:active {
+    color: #d71419;
+    border: 0;
+}
+
+.NavItems li {
+    padding: 10px 20px 10px 10px;
+}

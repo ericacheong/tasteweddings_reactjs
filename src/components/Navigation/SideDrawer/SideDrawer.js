@@ -3,6 +3,8 @@ import React from 'react';
 import Backdrop from '../../UI/Backdrop/Backdrop';
 import Aux from '../../../hoc/Aux/Aux';
 import NavigationItems from '../NavigationItems/NavigationItems';
+import Logo from '../../Logo/Logo';
+
 import './SideDrawer.css';
 
 const sideDrawer = (props) => {
@@ -18,7 +20,8 @@ const sideDrawer = (props) => {
             <div 
                 className={attachedClasses.join(' ')}
                 onClick={props.closed} >
-                <NavigationItems />
+                <Logo />
+                <NavigationItems clickHandler={props.openLinkAndCloseSideDrawerHandler}/>
             </div>
         </Aux>
 

@@ -1,0 +1,48 @@
+.Toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 1001;
+}
+
+.Fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white; /*rgba(240, 240, 240, 1);*/
+}
+
+.Fixed .LogoContainer img {
+    width: 100px;
+    height: auto;
+}
+
+.Fixed .DesktopOnly ul li a {
+    color: #94710F;
+}
+
+.Relative {
+    position: relative;
+}
+
+.DesktopOnly ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    padding-right: 1rem;
+}
+
+/* for small screens */
+@media screen and (max-width: 450px) {
+    .DesktopOnly {
+        display: none;
+    }
+    .Fixed {
+        background: none;
+    }
+    .Fixed .LogoContainer img {
+        display: none;
+    }
+
+}
