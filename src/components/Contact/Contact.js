@@ -1,21 +1,27 @@
 import React from 'react';
 import Ionicon from 'react-ionicons';
+import WufooForm from 'react-wufoo-embed';
 
 import './Contact.css';
 
 const contact = (props) => {
+
+    let oldForm = (
+        <form>
+                        <input type="text" placeholder="姓名" required/><br />
+                        <input type="email" placeholder="電郵" required/><br />
+                        <textarea row="5" placeholder="查詢" /><br />
+                        <button type="submit">送出</button>
+                    </form>
+    )
+
     return (
         <section id="contact" className="Contact">
             <h2>聯絡我們</h2>
             
             <div className="ContactContainer">
                 <div className="ContactForm">
-                    <form>
-                        <input type="text" placeholder="姓名" required/><br />
-                        <input type="email" placeholder="電郵" required/><br />
-                        <textarea row="5" placeholder="查詢" /><br />
-                        <button type="submit">送出</button>
-                    </form>
+                    <WufooForm userName="ericaclw" formHash="mptre321sixw72" />
                 </div>
                 <div className="ContactInfo">
                                 <p><strong>地址：</strong><br />
