@@ -2,4 +2,9 @@
     width: 200px;
     height: auto;
     z-index: 200;
+    padding: 10px;
+}
+
+.Fixed .Logo {
+    padding: 5px;
 }

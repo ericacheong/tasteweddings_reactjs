@@ -35,7 +35,7 @@ class toolbar extends Component {
         return (
             <div className={attachedClass}>
                 <div className="LogoContainer">
-                    <Logo />
+                    <Logo coverlogo={this.state.top} />
                 </div>
                 <nav className="DesktopOnly">
                     <NavigationItems clickHandler={this.props.linkScroll} />
