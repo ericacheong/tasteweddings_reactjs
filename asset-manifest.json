@@ -1,11 +1,18 @@
 {
-  "main.css": "static/css/main.5f639235.css",
-  "main.css.map": "static/css/main.5f639235.css.map",
-  "main.js": "static/js/main.cc02ba6e.js",
-  "main.js.map": "static/js/main.cc02ba6e.js.map",
+  "main.css": "static/css/main.caaf9ea4.css",
+  "main.css.map": "static/css/main.caaf9ea4.css.map",
+  "main.js": "static/js/main.76fabd7f.js",
+  "main.js.map": "static/js/main.76fabd7f.js.map",
+  "static/media/JK_01.jpg": "static/media/JK_01.e821d4d6.jpg",
+  "static/media/JK_02.jpg": "static/media/JK_02.ea3be72f.jpg",
+  "static/media/JK_03.jpg": "static/media/JK_03.fcad9b5d.jpg",
+  "static/media/JK_04.jpg": "static/media/JK_04.d518d688.jpg",
+  "static/media/JK_05.jpg": "static/media/JK_05.9688e792.jpg",
+  "static/media/JK_06.jpg": "static/media/JK_06.0ed29d89.jpg",
+  "static/media/JK_07.jpg": "static/media/JK_07.b8f9d98f.jpg",
+  "static/media/JK_08.jpg": "static/media/JK_08.7ab2e078.jpg",
   "static/media/book_cover.jpg": "static/media/book_cover.1e4435d1.jpg",
   "static/media/hero.jpeg": "static/media/hero.1d6b8eb0.jpeg",
   "static/media/logo_brown.png": "static/media/logo_brown.b318cdb2.png",
-  "static/media/logo_yellow.png": "static/media/logo_yellow.cdb9ddeb.png",
-  "static/media/photo.jpeg": "static/media/photo.6609123c.jpeg"
+  "static/media/logo_yellow.png": "static/media/logo_yellow.cdb9ddeb.png"
 }
