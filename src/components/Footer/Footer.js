@@ -6,7 +6,7 @@ const footer = (props) => {
     return (
         <footer>
             <p>Copyright &#64;2018. All rights reserved.<br />
-            Proudly presented by <a href="#">Kudos5 Lab</a></p>
+            Proudly presented by Kudos Lab</p>
                 
         </footer>
     );

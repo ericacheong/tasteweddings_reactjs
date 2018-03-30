@@ -5,7 +5,7 @@ import WufooForm from 'react-wufoo-embed';
 import './Contact.css';
 
 const contact = (props) => {
-
+    /*
     let oldForm = (
         <form>
                         <input type="text" placeholder="姓名" required/><br />
@@ -14,7 +14,7 @@ const contact = (props) => {
                         <button type="submit">送出</button>
                     </form>
     )
-
+    */
     return (
         <section id="contact" className="Contact">
             <h2>聯絡我們</h2>

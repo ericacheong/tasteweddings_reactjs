@@ -1,10 +1,14 @@
 .Photo {
-    background-color:#ccc;
+    background-color: white;
     width: 100%;
     padding: 0;
 }
-
-.Photo img {
-    width: 100%;
+/*
+.PhotoRow {
+    top: -4px;
+}
+*/
+.PhotoRow img {
+    width: 25%;
     height: auto;
 }
